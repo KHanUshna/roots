@@ -1,0 +1,105 @@
+
+	.box{
+	opacity: 0.7;
+	background: rgba(0,107,178,.65);
+	width: 600px;
+	margin: auto;
+	padding-left: 25px;
+	padding-right: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-shadow: 0 0 30px #000000;
+	outline: 10px;
+	border-radius: 30px;
+}
+.box2 {
+	opacity: 0.7;
+	background: rgba(0,107,178,.65);
+	width: 600px;
+	margin-left: 50%;
+	padding-left: 25px;
+	padding-right: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-shadow: 0 0 30px #000000;
+	outline: 10px;
+	text-align: right;
+	border-radius: 30px;
+}
+	#bg{
+	width: 900px;
+	margin: auto;
+	padding: 0px, 0px, 40px;
+	font-family: cursive;
+	font-size: 50px;
+	}
+
+.bb {
+	background: url(../img/giphy.gif) no-repeat
+center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.in1 {
+	width: 250px;
+	height: 50px;
+	padding-left: 25px;
+	padding-right: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin: auto;
+	font-family: cursive;
+}
+.in2 {
+	width: 250px;
+	height: 50px;
+	padding-left: 25px;
+	padding-right: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin: auto;
+	font-family: cursive;
+}
+.in3 {
+	width: 250px;
+	height: 250px;
+	
+}
+.in4 {
+	width: 250px;
+	height: 250px;
+	padding-left: 25px;
+	padding-right: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin: auto;
+	font-family: cursive;
+}
+.img1{
+	margin-left: 50%;
+	margin: auto;
+	text-align: right;
+}
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0,
+	overflow: hidden;
+	background-color: blue;
+}
+li {
+	float: left;
+}
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+li a:hover {
+	background-color: cornflowerblue;
+	border-radius: 30px;
+}
