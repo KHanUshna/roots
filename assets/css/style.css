@@ -12,27 +12,36 @@
 	outline: 10px;
 	border-radius: 30px;
 }
-.box2 {
-	opacity: 0.7;
-	background: rgba(0,107,178,.65);
-	width: 600px;
-	margin-left: 50%;
-	padding-left: 25px;
-	padding-right: 20px;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	text-shadow: 0 0 30px #000000;
-	outline: 10px;
-	text-align: right;
-	border-radius: 30px;
-}
 	#bg{
 	width: 900px;
-	margin: auto;
-	padding: 0px, 0px, 40px;
+	height: 600px;
+	left: 400px;
+	position: absolute;
 	font-family: cursive;
 	font-size: 50px;
+	text-align: center;
 	}
+.parent-bg{
+	height: 600px;
+	width: 900px;
+	margin: auto;
+}
+.parent-bg:hover .hidden-bg{
+	display: block;
+}
+.hidden-bg{
+	display: none;
+	left: 400px;
+	width: 900px;
+	position: absolute;
+	font-family: cursive;
+	font-size: 50px;
+	text-align: center;
+}
+.parent-bg:hover #bg{
+	display: none;
+}
+
 
 .bb {
 	background: url(../img/giphy.gif) no-repeat
@@ -102,4 +111,11 @@ li a {
 li a:hover {
 	background-color: cornflowerblue;
 	border-radius: 30px;
+}
+#enter {
+	padding-left: 25px;
+	padding-right: 20px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	margin: auto;
 }
